@@ -53,9 +53,7 @@ new Vue({
     checkInput: function() {
       if (!this.data_size || !this.mtu || !this.header_length) {
         document.getElementById('btn').disabled = true;
-        console.log(0);
       } else {
-        console.log(1);
         document.getElementById('btn').disabled = false;
       }
     },
