@@ -1,0 +1,30 @@
+{
+  "name": "ip-fragment-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app/app.js",
+    "watch": "nodemon app/app.js",
+    "lint": "eslint --fix app/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TasosY2K/ip-fragment-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TasosY2K/ip-fragment-calculator/issues"
+  },
+  "homepage": "https://github.com/TasosY2K/ip-fragment-calculator#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.3"
+  }
+}
