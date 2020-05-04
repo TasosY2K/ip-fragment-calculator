@@ -23,7 +23,7 @@
               <input type="number" class="form-control" placeholder="MTU (bytes)" v-model="mtu" @change="checkInput" min="68" max="1500">
               <input type="number" class="form-control" placeholder="Επικεφαλίδα (λέξεις)" v-model="header_length" @change="checkInput" min="5" max="15">
               <div class="input-group-append">
-                <button class="btn btn-primary" id="btn" @click="calculate" disabled>Fragment</button>
+                <button class="btn btn-primary" id="btn" @click="calculate" disabled>Πάμε</button>
               </div>
             </div>
             <table class="table" id="data_table">
