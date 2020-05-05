@@ -39,9 +39,9 @@ new Vue({
                     <td>${this.data_size}</td>
                     <td>${0}</td>
                     <td>${1}</td>
-                    <td>${this.mtu - this.header_length * 4}</td>
+                    <td>${(this.mtu - this.header_length * 4) - 4}</td>
                     <td>${this.header_length * 4}</td>
-                    <td>${this.mtu}</td>
+                    <td>${this.mtu - 4}</td>
                     <td>${i * payloadOffsetOctets}</td>
                     </tr>
                     `;
